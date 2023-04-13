@@ -1,6 +1,9 @@
--- SQL PROJECT
--- Description
 
+/*
+
+SQL PROJECT
+
+*/
 
 
 -- 1. Age (in years) of people living in 'Segovia'.
@@ -18,7 +21,6 @@ corresponding entry under the variable 'town' is equal to the string "Segovia".
 */
 
 
-
 -- 2. Name of drivers whose name contain the word 'SOL'
 
 SELECT name 
@@ -31,7 +33,6 @@ This query creates a new table from the 'persons' and 'drivers' tables based on 
 'dni'. It then returns the newly created table altered to consist of only one column with the entries of 
 the variable name' where said entries contain the string "sol".
 */
-
 
 
 -- 3. Radars registering no observation on 19/JAN/2011, between 22:00 h. and 22:59 h.
@@ -55,7 +56,6 @@ subtracts table B from table A to create a new table which is returned.
 */
 
 
-
 -- 4. Report the average speeds of each vehicle (make + model), ordered from lowest to highest.
 --    Vehicle models for which there are less than 800 recorded observations should be discarded.
 
@@ -77,7 +77,6 @@ returned that it is in ascending order of average speed and does not contain the
 combinations where fewer than 800 observations are recorded. To remove this one can simply remove 
 the code ", AVG(o.speed) AS AVERAGE, count(*) AS COUNT" from line 1.
 */
-
 
 
 -- 5.  Monthly report on how many speed violations (recorded speed greater than the speed 
@@ -108,7 +107,6 @@ entries for 'MONTH' and 'road', 'MONTH' and 'road' + 'direction' as well as 'MON
 */
 
 
-
 -- 6. Public enemy: drivers that have been included more than once in the upper decile of the 
 --    report 'monthly infractors' (sorted by amount of infractions, and average speed difference).
 
@@ -136,7 +134,6 @@ radar as 'TENTILE'. The last query creates yet again another new table consistin
 'tentile' is equal to 1. The rows of the table where there are multiple entries for 'nplate' are grouped. 
 This table is then organised to display the data in descending order of the variable 'total'.
 */
-
 
 
 -- 7. Hall of Fame: every radar has its top-ten of fastest observed cars ever. Report cars included in
