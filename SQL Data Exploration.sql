@@ -227,7 +227,7 @@ ORDER BY  1,2
 
 SELECT deaths.continent, deaths.location, deaths.date, population, vaccs.new_vaccinations,
 	   SUM(vaccs.new_vaccinations) OVER (PARTITION BY deaths.location 
-										 ORDER BY deaths.location, deaths.date) AS rolling_vaccinations
+					     ORDER BY deaths.location, deaths.date) AS rolling_vaccinations
 --	   (rolling_vaccinations/population)*100	-- cannot be added as is
 FROM SQLPortfolioProject..CovidDeaths deaths
 JOIN SQLPortfolioProject..CovidVaccinations vaccs
@@ -245,7 +245,7 @@ ORDER BY  2,3
 WITH CTE_vaccs (continent, location, date, population, new_vaccinations, rolling_vaccinations) AS (
 SELECT deaths.continent, deaths.location, deaths.date, population, vaccs.new_vaccinations,
 	   SUM(vaccs.new_vaccinations) OVER (PARTITION BY deaths.location 
-										 ORDER BY deaths.location, deaths.date) AS rolling_vaccinations
+					     ORDER BY deaths.location, deaths.date) AS rolling_vaccinations
 FROM SQLPortfolioProject..CovidDeaths deaths
 JOIN SQLPortfolioProject..CovidVaccinations vaccs
 	ON deaths.location = vaccs.location 
@@ -272,7 +272,7 @@ CREATE TABLE #rolling_percentage_vaccinated_pop (
 INSERT INTO #rolling_percentage_vaccinated_pop (continent, location, date, population, new_vaccinations, rolling_vaccinations)
 SELECT deaths.continent, deaths.location, deaths.date, population, vaccs.new_vaccinations,
 	   SUM(vaccs.new_vaccinations) OVER (PARTITION BY deaths.location 
-										 ORDER BY deaths.date) AS rolling_vaccinations
+					     ORDER BY deaths.date) AS rolling_vaccinations
 FROM SQLPortfolioProject..CovidDeaths deaths
 JOIN SQLPortfolioProject..CovidVaccinations vaccs
 	ON deaths.location = vaccs.location 
