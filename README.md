@@ -6,7 +6,7 @@ Here is a list of the projects accompanied a short description, starting with De
 
 ## List of Projects:
 
-> #### 1. Deep Learning Approach in Sea Surface Height Forecasting - Master's Thesis
+> #### 1. Master's Thesis - Deep Learning Approach in Sea Surface Height Forecasting
 
 The Philippines is among the most disaster-prone countries globally, with year-round typhoons causing devastating landslides and flooding. The Eastern Visayas region is particularly exposed to typhoons due to its positioning and typical pathing. This vulnerability is expected to worsen significantly in the coming decades due to global rising temperatures. This thesis proposes a machine learning approach to sea surface height forecasting for a portion of the Philippines covering Eastern Visayas. The study collects and uses satellite data covering the year 2017 on atmospheric and marine variables for training and testing several deep learning models' ability to forecast the last 4 weeks of sea surface height. The best-performing model is a bidirectional Gated Recurrent Unit network. The thesis concludes with a discussion on improving and developing an early warning system applicable in real-world scenarios.
 
