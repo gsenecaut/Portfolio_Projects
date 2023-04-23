@@ -1,6 +1,6 @@
 # Portfolio_Projects Repository
 
-This is a repository of all the projects displayed on my portfolio. These projects are here to display my level of proficiency in SQL, Python and more for potential employers.
+This is a repository of all the projects displayed on my portfolio. These projects are here to showcase my competencies and level of proficiency in SQL, Python and more for potential employers.
 
 Here is a list of the projects accompanied a short description, starting with Deep Learning Approach in Sea Surface Height Forecasting which is the thesis I wrote when I was a Master's student in Madrid studying Big Data Analytics.
 
