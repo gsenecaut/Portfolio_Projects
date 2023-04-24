@@ -18,9 +18,9 @@ The Philippines is among the most disaster-prone countries globally, with year-r
 
 <br/>
 
-> #### 3. R - Project
+> #### 3. R - Satellite Analysis Project
 
-*Short description*
+This project was a group assignment using R for the final assessment for of the Statistical Learning course in my Master's where we chose the dataset and how to approach its analysis. The aim of this project was to analyze a dataset of all publicly known satellites currently in orbit using various statistical techniques in R. In the first section, the dataset and the selected variables are introduced. Dimension reduction techniques, namely principal component analysis and independent component analysis, are utilized to extract important information from the dataset. Unsupervised and supervised classification methods, including partitional clustering, hierarchical clustering, model-based clustering, k-nearest neighbors, linear discriminant analysis, quadratic discriminant analysis, naive Bayes, and logistic regression, are employed to classify satellites based on their characteristics. Outliers are identified and their effects on the classification results are discussed. The project aims to identify patterns and structures in the data and provide insights into the classification of satellites based on their characteristics. It also demonstrates the use of various statistical techniques in R and their applicability in real-world datasets.
 
 <br/>
 
