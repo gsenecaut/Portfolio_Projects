@@ -12,9 +12,9 @@ The Philippines is among the most disaster-prone countries globally, with year-r
 
 <br/>
 
-> #### 2. Python - Project
+> #### 2. Python - Hyperparameter Tuning Project
 
-*Short description*
+This project compares five regression models and four hyperparameter optimization techniques using cross-validation to provide insights into the effectiveness of different machine learning models and optimization techniques. The models include Decision Tree Regression, Random Forest Regression, Extra Trees Regression, K Nearest Neighbours Regression, and Hist Gradient Boosting Regression, and the optimization techniques are Grid Search, Random Search, Optuna, and Scikit-Optimize. Performance is evaluated based on negative RMSE using 3-fold cross-validation, and execution time is recorded to assess efficiency. The naive model that predicts the mean of the target variable is used as a baseline for comparison.
 
 <br/>
 
